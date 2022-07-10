@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('checkout code') {
           steps {
-            git(url: 'git@github.com:asaf-haligua/NodeJS-EmptySiteTemplate.git', branch: 'master', credentialsId: 'github')
+            git(url: 'git@github.com:asaf-haligua/NodeJS-EmptySiteTemplate.git', branch: 'master', credentialsId: 'githubas-jenkins	')
           }
         }
 
